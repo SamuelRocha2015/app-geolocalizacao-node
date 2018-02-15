@@ -1,0 +1,25 @@
+{
+  "name": "app-geo",
+  "version": "1.0.0",
+  "description": "App de Geolocalização ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelRocha2015/app-geolocalizacao-node.git"
+  },
+  "author": "Samuel Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelRocha2015/app-geolocalizacao-node/issues"
+  },
+  "homepage": "https://github.com/SamuelRocha2015/app-geolocalizacao-node#readme",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "knex": "^0.14.3",
+    "mysql": "^2.15.0",
+    "restify": "^6.3.4"
+  }
+}
